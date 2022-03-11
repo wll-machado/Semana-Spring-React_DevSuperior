@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {ReactComponent as GitIcon} from './assets/img/github.svg'
 
 function App() {
   return (
@@ -8,7 +8,10 @@ function App() {
      <nav>
        <div>
          <h1>DsMovie</h1>
-         <a href="https://github.com/wll-machado" target="_blank" rel="noreferrer">git</a>
+         <a href="https://github.com/wll-machado" target="_blank" rel="noreferrer">
+           <div><GitIcon/></div>
+           <p>/wll-machado</p>
+         </a>
        </div>
      </nav>
    </header>
